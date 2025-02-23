@@ -50,29 +50,38 @@ RUN pip install --no-cache-dir -r requirements.txt
 CMD ["python", "train.py"]
 
 
+Here is your **Markdown-formatted** version of the provided content:
 
-### 🔥 **PyTorch with CUDA**
+```markdown
+## 🎯 Jupyter Notebook with AI Libraries
 
-FROM pytorch/pytorch:latest
-WORKDIR /workspace
-COPY . .
-RUN pip install -r requirements.txt
-CMD ["python", "main.py"]
-
-🎯 Jupyter Notebook with AI Libraries
-
+```dockerfile
 FROM jupyter/tensorflow-notebook
 WORKDIR /notebooks
 CMD ["start-notebook.sh", "--NotebookApp.token=''"]
+```
 
+---
 
-📚 Resources & References
+## 📚 Resources & References
 
 Here are some useful resources for AI developers using Docker:
 
-    📌 Official Docker Docs: Docker Documentation
-    📌 NVIDIA Docker Docs: NVIDIA Docker Guide
-    📌 TensorFlow Docker Guide: TensorFlow Docker
-    📌 PyTorch Docker Guide: PyTorch Docker
-    📌 Deep Learning Deployment with Docker: Deployment Guide
-    📌 Best Practices for AI Containers: Google AI Containers
+- 📌 **Official Docker Docs**: [Docker Documentation](https://docs.docker.com/)
+- 📌 **NVIDIA Docker Docs**: [NVIDIA Docker Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+- 📌 **TensorFlow Docker Guide**: [TensorFlow Docker](https://www.tensorflow.org/install/docker)
+- 📌 **PyTorch Docker Guide**: [PyTorch Docker](https://pytorch.org/get-started/locally/)
+- 📌 **Deep Learning Deployment with Docker**: [Deployment Guide](https://developer.nvidia.com/blog/deploying-deep-learning/)
+- 📌 **Best Practices for AI Containers**: [Google AI Containers](https://cloud.google.com/ai-platform/docs)
+
+---
+
+## 💡 Contributing
+
+Want to improve this repo? Feel free to:
+
+- Open an **issue** for suggestions or improvements.
+- Submit a **pull request** with better examples or new AI containers.
+
+---
+```
